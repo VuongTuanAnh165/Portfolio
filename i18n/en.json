@@ -1,3 +1,6 @@
 {
-    "menu.home": "Home"
+    "menu.home": "Home",
+    "menu.about": "About",
+    "menu.skills": "Skills",
+    "menu.experience": "Experience"
 }

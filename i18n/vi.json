@@ -1,3 +1,6 @@
 {
-    "menu.home": "Trang chủ"
+    "menu.home": "Trang chủ",
+    "menu.about": "Giới thiệu",
+    "menu.skills": "Kỹ năng",
+    "menu.experience": "Kinh nghiệm"
 }
