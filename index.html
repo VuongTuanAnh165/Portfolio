@@ -59,11 +59,14 @@
 								<li class="nav-item"><a class="nav-link smooth-scroll" href="#home"><i
 											class="icofont-home"></i> <span data-i18n="menu.home"></span></a></li>
 								<li class="nav-item"><a class="nav-link smooth-scroll" href="#about"><i
-											class="icofont-contact-add"></i> <span data-i18n="menu.about"></span></a></li>
-								<li class="nav-item"><a class="nav-link smooth-scroll" href="#service"><i
-											class="icofont-file-document"></i> <span data-i18n="menu.skills"></span></a></li>
+											class="icofont-contact-add"></i> <span data-i18n="menu.about"></span></a>
+								</li>
+								<li class="nav-item"><a class="nav-link smooth-scroll" href="#skills"><i
+											class="icofont-file-document"></i> <span data-i18n="menu.skills"></span></a>
+								</li>
 								<li class="nav-item"><a class="nav-link smooth-scroll" href="#work"><i
-											class="icofont-briefcase-1"></i> <span data-i18n="menu.experience"></span></a></li>
+											class="icofont-briefcase-1"></i> <span
+											data-i18n="menu.experience"></span></a></li>
 								<li class="nav-item"><a class="nav-link smooth-scroll" href="#feed"><i
 											class="icofont-quote-left"></i>Testimonial</a></li>
 								<li class="nav-item"><a class="nav-link smooth-scroll" href="#blog"><i
@@ -128,35 +131,32 @@
 						<div class="hero-single sidebar-hero-bg">
 							<div class="container"> <!-- start container -->
 								<div class="row"> <!-- start row -->
-									<div class="col-md-6 pl-20"> <!-- hero text left -->
+									<div class="col-md-7 pl-20"> <!-- hero text left -->
 										<div class="hero-content wow fadeInUp" data-wow-duration=".5s"
 											data-wow-delay=".6s">
 											<span class="top-title wow fadeInUp" data-wow-duration=".6s"
 												data-wow-delay=".7s" data-i18n="user.name"></span>
 											<div class="typed-strings">
-												<p> <span class="type_color">Creative Designer</span></p>
-												<p> <span class="type_color">Wordpress Developer</span></p>
-												<p> <span class="type_color">Python Developer</span></p>
+												<p> <span class="type_color">Full Stack Developer</span></p>
 											</div>
 											<h2 class="text-16 header_type_text text-white mb-2 mb-md-3">
-												I'm <span class="typed"></span>
+												I am <span class="typed"></span>
 											</h2>
 											<p class="header-intro-text wow fadeInUp" data-wow-duration=".6s"
-												data-wow-delay=".8s">I have been working since 2012. I am proficient in
-												ui design, user experience researcher, web development.</p>
+												data-wow-delay=".8s" data-i18n="[html]careerObjective"></p>
 											<div class="hro-btn wow fadeInUp" data-wow-duration=".6s"
 												data-wow-delay=".9s">
-												<a href="#" class="theme-btn">
-													Download cv
+												<a href="#" class="theme-btn" data-i18n="button.downloadCV">
 												</a>
 											</div>
 										</div>
 									</div> <!-- hero left text end -->
-									<div class="col-md-6"> <!-- hero right img animation -->
+									<div class="col-md-5"> <!-- hero right img animation -->
 										<div class="hero-right wow fadeInUp" data-wow-duration=".6s"
 											data-wow-delay=".6s">
 											<img src="img/hr-02.png" alt="" class="thumbnail" />
-											<img src="img/hr-01.png" style="max-width: 361px;" alt="" class="thumbnail-2 mt-10" />
+											<img src="img/hr-01.png" style="max-width: 361px;" alt=""
+												class="thumbnail-2 mt-10" />
 										</div>
 									</div> <!-- hero right img animation  end -->
 								</div>
@@ -180,100 +180,158 @@
 											data-wow-delay=".2s">
 											<div class="about-header-left">
 												<h2 class="about-tl gr-bg wow fadeInUp" data-wow-duration=".6s"
-													data-wow-delay=".4s">
-													10 Years of
-													<br />
-													Experience
+													data-wow-delay=".4s" data-i18n="[html]experience">
 												</h2>
-												<h4 class="about-tl-2 mb-20">Do you have any project?</h4>
-												<a href="#contact" class="smooth-scroll btn-3">Let's Talk</a>
+												<h4 class="about-tl-2 mb-20" data-i18n="field"></h4>
+												<a href="#contact" class="smooth-scroll btn-3"
+													data-i18n="workExperience"></a>
 											</div>
 										</div>
 									</div> <!-- about left text end -->
 									<div class="col-md-6">
 										<div class="about-right wow fadeInUp" data-wow-duration=".8s"
 											data-wow-delay=".5s">
-											<span class="top-title">Devid Karikta</span>
-											<h2 class="about-tl-3 gr-2">
-												Design is not only art but also
-												science and commerce as well
-											</h2>
-											<p>
-												I am dedicated his life to learning what makes humans tick. He studies,
-												researches and reads everything hecan, and shares his
-												findings with his clients. His philosophy is to learn, test, analyse,
-												improve and re-test. His motto is stay agile.
-											</p>
+											<span class="top-title" data-i18n="user.name"></span>
+											<h2 class="about-tl-3 gr-2" data-i18n="user.role"></h2>
+											<p data-i18n="[html]about.intro"></p>
 											<div class="about-cn">
 												<ul>
-													<li><i class="far fa-envelope"></i> chat@paris.com</li>
-													<li><i class="fab fa-whatsapp"></i> 123 456 7899</li>
+													<li><i class="far fa-envelope"></i> <span
+															data-i18n="user.email"></span></li>
+													<li><i class="fab fa-whatsapp"></i> <span
+															data-i18n="user.phone"></span></li>
 												</ul>
 											</div>
 										</div>
 									</div> <!-- about right text end -->
 								</div> <!-- end row -->
-								<div class="row">
+								<div id="skills" class="row">
+									<!-- Cột trái -->
 									<div class="col-md-6">
 										<div class="progress-left pt-80">
 											<div class="skill-section">
 												<!-- Progress Bar Start -->
 												<div class="progress-box">
-													<h5>Adobe Photoshop <span class="pull-right">85%</span></h5>
+													<h5>PHP <span class="pull-right">90%</span></h5>
+													<div class="progress">
+														<div class="progress-bar" role="progressbar" data-width="90">
+														</div>
+													</div>
+												</div>
+												<div class="progress-box">
+													<h5>JavaScript <span class="pull-right">85%</span></h5>
 													<div class="progress">
 														<div class="progress-bar" role="progressbar" data-width="85">
 														</div>
 													</div>
 												</div>
 												<div class="progress-box">
-													<h5>Adobe Illustrator <span class="pull-right">95%</span></h5>
+													<h5>TypeScript <span class="pull-right">75%</span></h5>
 													<div class="progress">
-														<div class="progress-bar" role="progressbar" data-width="95">
+														<div class="progress-bar" role="progressbar" data-width="75">
 														</div>
 													</div>
 												</div>
 												<div class="progress-box">
-													<h5>Adobe XD <span class="pull-right">75%</span></h5>
+													<h5>Laravel <span class="pull-right">90%</span></h5>
 													<div class="progress">
-														<div class="progress-bar" role="progressbar" data-width="75">
+														<div class="progress-bar" role="progressbar" data-width="90">
+														</div>
+													</div>
+												</div>
+												<div class="progress-box">
+													<h5>Vue.js <span class="pull-right">85%</span></h5>
+													<div class="progress">
+														<div class="progress-bar" role="progressbar" data-width="85">
+														</div>
+													</div>
+												</div>
+												<div class="progress-box">
+													<h5>React.js <span class="pull-right">70%</span></h5>
+													<div class="progress">
+														<div class="progress-bar" role="progressbar" data-width="70">
+														</div>
+													</div>
+												</div>
+												<div class="progress-box">
+													<h5>Nuxt.js <span class="pull-right">80%</span></h5>
+													<div class="progress">
+														<div class="progress-bar" role="progressbar" data-width="80">
 														</div>
 													</div>
 												</div>
 												<!-- End Progressbar -->
 											</div>
 										</div>
-									</div> <!-- end col-6 -->
+									</div>
+
+									<!-- Cột phải -->
 									<div class="col-md-6">
 										<div class="progress-right pt-80">
 											<div class="skill-section">
 												<!-- Progress Bar Start -->
 												<div class="progress-box">
-													<h5>Wordpress Ninja <span class="pull-right">85%</span></h5>
+													<h5>JQuery <span class="pull-right">80%</span></h5>
+													<div class="progress">
+														<div class="progress-bar" role="progressbar" data-width="80">
+														</div>
+													</div>
+												</div>
+												<div class="progress-box">
+													<h5>Bootstrap <span class="pull-right">85%</span></h5>
 													<div class="progress">
 														<div class="progress-bar" role="progressbar" data-width="85">
 														</div>
 													</div>
 												</div>
 												<div class="progress-box">
-													<h5>Web Design &amp; Development <span class="pull-right">95%</span>
-													</h5>
+													<h5>Tailwind CSS <span class="pull-right">80%</span></h5>
 													<div class="progress">
-														<div class="progress-bar" role="progressbar" data-width="95">
+														<div class="progress-bar" role="progressbar" data-width="80">
 														</div>
 													</div>
 												</div>
 												<div class="progress-box">
-													<h5>Javascript <span class="pull-right">75%</span></h5>
+													<h5>Vuetify <span class="pull-right">70%</span></h5>
+													<div class="progress">
+														<div class="progress-bar" role="progressbar" data-width="70">
+														</div>
+													</div>
+												</div>
+												<div class="progress-box">
+													<h5>MySQL <span class="pull-right">85%</span></h5>
+													<div class="progress">
+														<div class="progress-bar" role="progressbar" data-width="85">
+														</div>
+													</div>
+												</div>
+												<div class="progress-box">
+													<h5>Git <span class="pull-right">90%</span></h5>
+													<div class="progress">
+														<div class="progress-bar" role="progressbar" data-width="90">
+														</div>
+													</div>
+												</div>
+												<div class="progress-box">
+													<h5>Firebase <span class="pull-right">75%</span></h5>
 													<div class="progress">
 														<div class="progress-bar" role="progressbar" data-width="75">
+														</div>
+													</div>
+												</div>
+												<div class="progress-box">
+													<h5>AWS S3 <span class="pull-right">70%</span></h5>
+													<div class="progress">
+														<div class="progress-bar" role="progressbar" data-width="70">
 														</div>
 													</div>
 												</div>
 												<!-- End Progressbar -->
 											</div>
 										</div>
-									</div> <!-- end col-6  -->
-								</div> <!-- end row-->
+									</div>
+								</div>
+
 							</div> <!-- end container -->
 
 						</div> <!-- end about wrp -->
@@ -285,29 +343,28 @@
 					<div class="exp-area de-padding">
 						<div class="container pl-20">
 							<div class="site-title">
-								<h2 class="site-tl">
-									Education & Experience
+								<h2 class="site-tl" data-i18n="workExperience">
 								</h2>
 							</div> <!-- end section title -->
 							<div class="exp-wpr grid-3">
 								<div class="exp-box wow fadeInDown" data-wow-duration=".6s" data-wow-delay=".2s">
 									<div class="exp-icon one">
-										<i class="icofont-designfloat"></i>
+										<img src="img/icons/favicon.ico">
 									</div>
 									<div class="exp-content">
-										<h4>UX / UI Designer</h4>
-										<p>Apple Inc</p>
-										<span>(2017 - 2020)</span>
+										<h4>Landmark - jesus</h4>
+										<p data-i18n="project"></p>
+										<span>(12/2023 - now)</span>
 									</div>
 								</div> <!-- end one -->
 								<div class="exp-box wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".4s">
 									<div class="exp-icon two">
-										<i class="icofont-file-python"></i>
+										<img src="img/icons/fav_logo.ico">
 									</div>
 									<div class="exp-content">
-										<h4>python Developer</h4>
-										<p>Google Inc</p>
-										<span>(2015 - 2016)</span>
+										<h4>BeeChat</h4>
+										<p data-i18n="project"></p>
+										<span>(12/2024 - 08/2025)</span>
 									</div>
 								</div> <!-- end two -->
 								<div class="exp-box wow fadeInDown" data-wow-duration=".6s" data-wow-delay=".6s">

@@ -3696,3 +3696,7 @@ button.theme-btn {
 .checkbox-wrapper-55 input:checked:focus+.switch-left+.switch-right {
   color: #333;
 }
+
+.exp-icon {
+  width: 32px;
+}

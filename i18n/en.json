@@ -5,5 +5,14 @@
     "menu.experience": "Experience",
     "user.name": "Vương Tuấn Anh",
     "user.phone": "0399 338 947",
-    "user.email": "vuongtuananh165@gmail.com"
+    "user.email": "vuongtuananh165@gmail.com",
+    "user.role": "Full Stack Developer",
+    "user.introduce": "I am",
+    "careerObjective": "I am a Full Stack Developer with 3 years of experience in Web Development. I have over 2 years of experience working on the Backend (PHP, Laravel) and more than 1 year on the Frontend (Vue.js, React.js). <br />My goal is to continuously improve my technical skills and contribute real value to products, striving to become a skilled and reliable Software Engineer.",
+    "button.downloadCV": "Download CV",
+    "experience": "3 Years of<br />Experience",
+    "field": "in Web Development",
+    "workExperience": "Work Experience",
+    "about.intro": "Graduated from Electric Power University with a degree in Software Engineering (GPA 3.71/4.0).<br />I’m passionate about technology, always eager to explore how things work and how to make them better.<br />In my free time, I enjoy listening to music, watching movies, and developing personal projects.<br />My curiosity and dedication to continuous improvement have helped me earn recognition as Employee of the Month at Beetechsoft (May 2025).",
+    "project": "Project"
 }

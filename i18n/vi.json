@@ -5,5 +5,14 @@
     "menu.experience": "Kinh nghiệm",
     "user.name": "Vương Tuấn Anh",
     "user.phone": "0399 338 947",
-    "user.email": "vuongtuananh165@gmail.com"
+    "user.email": "vuongtuananh165@gmail.com",
+    "user.role": "Lập trình viên Full Stack",
+    "user.introduce": "Tôi là",
+    "careerObjective": "Tôi là Lập trình viên Full Stack với 3 năm kinh nghiệm trong lĩnh vực Phát triển Web. Tôi có hơn 2 năm kinh nghiệm làm việc với Backend (PHP, Laravel) và hơn 1 năm với Frontend (Vue.js, React.js). <br />Mục tiêu của tôi là không ngừng nâng cao kỹ năng kỹ thuật, đóng góp giá trị thực tế cho sản phẩm, và phấn đấu trở thành một Kỹ sư Phần mềm giỏi, đáng tin cậy.",
+    "button.downloadCV": "Tải CV",
+    "experience": "3 Năm<br />Kinh nghiệm",
+    "field": "trong lĩnh vực Phát triển Web",
+    "workExperience": "Kinh nghiệm làm việc",
+    "about.intro": "Tốt nghiệp Trường Đại học Điện Lực, chuyên ngành Công nghệ Phần mềm (GPA 3.71/4.0).<br />Tôi đam mê công nghệ, luôn mong muốn khám phá cách mọi thứ hoạt động và tìm cách cải thiện chúng.<br />Trong thời gian rảnh, tôi thích nghe nhạc, xem phim và phát triển các dự án cá nhân.<br />Tinh thần cầu tiến và nỗ lực không ngừng đã giúp tôi được ghi nhận là Nhân viên xuất sắc tháng 05/2025 tại Beetechsoft.",
+    "project": "Dự án"
 }
