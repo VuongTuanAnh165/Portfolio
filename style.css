@@ -3718,3 +3718,7 @@ a.default {
 a.default:hover {
   color: #0a58ca;
 }
+
+.word-break-all {
+  word-break: break-all;
+}
