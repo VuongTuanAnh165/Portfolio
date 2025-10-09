@@ -5,11 +5,22 @@
 (function ($) {
   const i18n = $.i18n();
 
+  function updateCVLinkByLang(lang) {
+    const cvLinks = {
+        vi: "https://www.topcv.vn/xem-cv/DwNZUFZSAVAFW1IMCAcJBlAKBlUFVVAIVgZcAA7bda",
+        en: "https://www.topcv.vn/xem-cv/BQUCVAEAA1ILDwMPBggLAAEAVlBSU1UCDVxVWge95e"
+    };
+
+    const href = cvLinks[lang] || cvLinks['vi']; // fallback
+    $('.download-cv-link').attr('href', href);
+}
+
   function applyLocale(lang) {
     i18n.locale = lang;
     $("html").attr("lang", lang);
     $("body").i18n();
     localStorage.setItem("lang", lang);
+    updateCVLinkByLang(lang)
   }
 
   function initI18n(initialLang) {

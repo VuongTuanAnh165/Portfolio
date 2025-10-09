@@ -1841,6 +1841,16 @@ button.accordion-button:hover {
 
 .service-box .service-icon {
   margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-box .service-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .service-box {
@@ -3699,4 +3709,12 @@ button.theme-btn {
 
 .exp-icon {
   width: 32px;
+}
+
+a.default {
+  color: #0d6efd;
+}
+
+a.default:hover {
+  color: #0a58ca;
 }

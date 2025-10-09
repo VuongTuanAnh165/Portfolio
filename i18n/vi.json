@@ -1,4 +1,5 @@
 {
+    "footer": "© 2025 Vương Tuấn Anh. Mọi quyền được bảo lưu.",
     "menu.home": "Trang chủ",
     "menu.about": "Giới thiệu",
     "menu.skills": "Kỹ năng",
@@ -14,5 +15,23 @@
     "field": "trong lĩnh vực Phát triển Web",
     "workExperience": "Kinh nghiệm làm việc",
     "about.intro": "Tốt nghiệp Trường Đại học Điện Lực, chuyên ngành Công nghệ Phần mềm (GPA 3.71/4.0).<br />Tôi đam mê công nghệ, luôn mong muốn khám phá cách mọi thứ hoạt động và tìm cách cải thiện chúng.<br />Trong thời gian rảnh, tôi thích nghe nhạc, xem phim và phát triển các dự án cá nhân.<br />Tinh thần cầu tiến và nỗ lực không ngừng đã giúp tôi được ghi nhận là Nhân viên xuất sắc tháng 05/2025 tại Beetechsoft.",
-    "project": "Dự án"
+    "project": "Dự án",
+    "detail": "Chi tiết",
+    "url": "Đường dẫn",
+    "role": "Vai trò",
+    "teamSize": "Quy mô nhóm",
+    "description": "Mô tả",
+    "technology": "Công nghệ",
+    "role.fullStack": "Lập trình viên Full Stack",
+    "role.fe": "Lập trình viên Frontend",
+    "role.be": "Lập trình viên Backend",
+    "people": "người",
+    "landmark.description": "Nền tảng cung cấp dịch vụ sắp xếp bãi đỗ xe, hỗ trợ trên mọi thiết bị, tích hợp nhiều tính năng quản lý dành cho cả cá nhân và tổ chức.",
+    "beechat.description": "BeeChat là nền tảng giao tiếp nội bộ doanh nghiệp, tương tự như Slack, cho phép nhân viên trò chuyện, chia sẻ tệp và hợp tác theo thời gian thực. Hệ thống bao gồm ứng dụng web, ứng dụng di động (Flutter) và backend (PHP Laravel), được thiết kế để hỗ trợ giao tiếp nhanh chóng và an toàn giữa các phòng ban.",
+    "sodai.description": "Hệ thống cung cấp dịch vụ cho các nhà sáng tạo nội dung quản lý và đăng ký bán sản phẩm tại máy in trong cửa hàng tiện lợi FamilyMart.",
+    "makitech.description": "MakiTech Online là nền tảng thương mại điện tử cho phép khách hàng mua các sản phẩm của Makitech, bao gồm con lăn, băng tải và linh kiện thay thế. Hệ thống bao gồm phân hệ quản trị (admin) và phân hệ người dùng, hỗ trợ quản lý sản phẩm, xử lý đơn hàng, và thanh toán trực tuyến an toàn.",
+    "medda.description": "Medda là nền tảng chăm sóc sức khỏe số kết nối bệnh nhân với bệnh viện và bác sĩ trên toàn quốc. Hệ thống cho phép người dùng đặt lịch hẹn, tư vấn trực tuyến, quản lý hồ sơ sức khỏe cá nhân, và nhận kết quả xét nghiệm nhanh chóng, an toàn thông qua ứng dụng web và di động.",
+    "beeid.description": "Hệ thống quản lý nhân sự và công việc nội bộ do công ty tự phát triển, phục vụ cho việc theo dõi, phân công và quản lý hiệu suất làm việc của nhân viên.",
+    "projectsTitle": "Các Dự Án Cá Nhân Tiêu Biểu",
+    "seeMore": "Xem thêm"
 }
