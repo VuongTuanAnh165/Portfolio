@@ -7,8 +7,8 @@
 
   function updateCVLinkByLang(lang) {
     const cvLinks = {
-        vi: "https://www.topcv.vn/xem-cv/DwNZUFZSAVAFW1IMCAcJBlAKBlUFVVAIVgZcAA7bda",
-        en: "https://www.topcv.vn/xem-cv/BQUCVAEAA1ILDwMPBggLAAEAVlBSU1UCDVxVWge95e"
+        vi: "https://drive.google.com/file/d/1CN_LbEN0iNv00tlisSDWB58T4o1eHP2c/view",
+        en: "https://drive.google.com/file/d/1rONp75d3sK3eLlgVDgoW6vh4DCbvqSaM/view"
     };
 
     const href = cvLinks[lang] || cvLinks['vi']; // fallback
