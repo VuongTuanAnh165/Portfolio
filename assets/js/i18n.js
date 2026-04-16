@@ -7,8 +7,8 @@
 
   function updateCVLinkByLang(lang) {
     const cvLinks = {
-        vi: "https://drive.google.com/file/d/1CN_LbEN0iNv00tlisSDWB58T4o1eHP2c/view",
-        en: "https://drive.google.com/file/d/1rONp75d3sK3eLlgVDgoW6vh4DCbvqSaM/view"
+        vi: "https://drive.google.com/file/d/1x2w4ar61HrausevY0jYMmdwo7tnt305R/view",
+        en: "https://drive.google.com/file/d/1DYR6r-GHbnV-kmnPsWbp_UgNcUjZBmnp/view"
     };
 
     const href = cvLinks[lang] || cvLinks['vi']; // fallback
